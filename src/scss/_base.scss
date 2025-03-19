@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+:root {
+  --Dark-green: #0f1907;
+  --Brown: #9d958a;
+  --Light-brown: #cca771;
+  --Light-light-brown: #f3e7d5;
+  --Grey: #d9d9d9;
+  --White: #ffffff;
+}
+
+body {
+  background-color: var(--Dark-green);
+  color: var(--Light-light-brown);
+  font-family: "Helvetica Neue";
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../font/HelveticaNeue-CondensedBold.woff2") format("woff2"),
+    url("../font/HelveticaNeue-CondensedBold.woff") format("woff");
+  font-weight: 700;
+}
