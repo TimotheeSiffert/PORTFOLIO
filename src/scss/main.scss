@@ -1,13 +1,17 @@
 @import "font";
 @import "base";
 @import "layout";
-@import "modules/header";
-@import "modules/title";
-@import "modules/branche";
-@import "modules/top";
-@import "modules/citation";
-@import "modules/exposed";
-@import "modules/button";
+@import "modules/index-header";
+@import "modules/index-title";
+@import "modules/index-branche";
+@import "modules/index-top";
+@import "modules/index-citation";
+@import "modules/index-exposed";
+@import "modules/index-button";
+@import "modules/index-card";
+@import "modules/index-footer";
+@import "modules/projects-title";
+@import "modules/projects-branche";
 @import "bootstrap/scss/bootstrap-grid";
 
 // .row + .row {

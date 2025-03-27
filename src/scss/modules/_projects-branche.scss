@@ -1,0 +1,30 @@
+.projects-branche-name {
+  font-family: the-seasons, sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 104.255%;
+}
+
+.projects-branche {
+  display: flex;
+  gap: 25px;
+}
+
+.branche-copyright,
+.branche-date {
+  font-size: 12px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 92.925%;
+}
+
+.branche-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.branche-card {
+  margin-bottom: 76px;
+}

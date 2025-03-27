@@ -1,0 +1,44 @@
+.card-title {
+  font-family: the-seasons, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 92.925%;
+}
+
+.card-date {
+  text-align: right;
+  font-family: "Helvetica Neue";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 92.925%;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 119px;
+  margin-bottom: 18px;
+}
+
+.card-image {
+  margin-bottom: 11px;
+  width: 100%;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-second {
+  margin-top: -160px;
+}
+
+.card-third {
+  margin-top: -67px;
+  margin-bottom: 54px;
+}
