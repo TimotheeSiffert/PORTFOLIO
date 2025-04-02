@@ -44,8 +44,12 @@ body {
 }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("../font/HelveticaNeue-ThinItalic.woff2") format("woff2"),
-    url("../font/HelveticaNeue-ThinItalic.woff") format("woff");
-  font-weight: 100;
-  font-style: italic;
+  src: url("../font/HelveticaNeue-Bold.woff2") format("woff2"),
+    url("../font/HelveticaNeue-Bold.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.link-about {
+  display: none;
 }

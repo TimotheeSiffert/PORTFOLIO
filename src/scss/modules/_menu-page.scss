@@ -1,0 +1,25 @@
+.menu-page-number {
+  text-align: center;
+  font-family: the-seasons, sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 100;
+  padding-top: 38px;
+}
+
+.menu-page-title {
+  text-align: center;
+  font-family: the-seasons, sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+}
+
+.menu-page {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.menu-all-page {
+  margin-bottom: 45px;
+}

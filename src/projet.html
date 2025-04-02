@@ -13,12 +13,15 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
+    <div class="l-menu">
+      <extends src="menu.html"></extends>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="header">
             <div class="header-button">Logo</div>
-            <a href="menu.html" class="header-button">Menu</a>
+            <div class="header-button">Menu</div>
           </div>
         </div>
       </div>
@@ -53,29 +56,88 @@
         <div class="col offset-7">
           <div class="projet-line"></div>
           <p class="projet-tools-title">Outils utilisés</p>
-          <p class="projet-tools-name">Photoshop</p>
-          <p class="projet-tools-name">Illustrator</p>
-          <p class="projet-tools-name">Eagle</p>
-          <p class="projet-tools-name">Pinterest</p>
+          <div class="projet-tools">
+            <p class="projet-tools-name">Photoshop</p>
+            <p class="projet-tools-name">Illustrator</p>
+            <p class="projet-tools-name">Eagle</p>
+            <p class="projet-tools-name">Pinterest</p>
+          </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-7">image</div>
+        <div class="col-7">
+          <img
+            src="img/détails projet/24-25_IMD2_Gd_PB_Siffert_Timothee_Re copie 1.png"
+            alt=""
+            class="projet-images"
+          />
+        </div>
         <div class="col">
-          <div class="col">image</div>
-          <div class="col">image</div>
+          <div class="projet-margin-images">
+            <div class="col">
+              <img
+                src="img/détails projet/Poster_Frame_Mockup_2 copie 2.png"
+                alt=""
+                class="projet-images"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/détails projet/Poster_Frame_Mockup_3 copie 1.png"
+                alt=""
+                class="projet-images"
+              />
+            </div>
+          </div>
         </div>
-        <div class="col-5">image</div>
-        <div class="col-7">image</div>
+        <div class="col-5">
+          <img
+            src="img/détails projet/Poster_Frame_Mockup_2 copie 6.png"
+            alt=""
+            class="projet-images"
+          />
+        </div>
+        <div class="col-7">
+          <img
+            src="img/détails projet/Poster_Frame_Mockup_2 copie 3.png"
+            alt=""
+            class="projet-images"
+          />
+        </div>
       </div>
       <div class="row">
-        <div class="col-5">image</div>
-        <div class="col">texte</div>
+        <div class="col-5">
+          <img
+            src="img/détails projet/Poster_Frame_Mockup_2 copie 5.png"
+            alt=""
+            class="projet-last-image"
+          />
+        </div>
+        <div class="col">
+          <p class="projet-description projet-description-bottom">
+            Dans ce projet, le but est de réaliser un poster surréaliste pour un
+            artiste musical. L’artiste en question est “Folie’s”, chanteur de
+            rap.
+          </p>
+        </div>
       </div>
       <div class="row">
-        <div class="col-8 offset-2">flèche</div>
+        <div class="col-8 offset-2">
+          <div class="projet-change-project">
+            <div class="projet-previous">
+              <img src="img/arrow.png" alt="" class="projet-arrow-previous" />
+              <p class="projet-change-text">Projet précédent</p>
+            </div>
+            <div class="projet-switch-line"></div>
+            <div class="projet-next">
+              <img src="img/arrow.png" alt="" class="projet-arrow-next" />
+              <p class="projet-change-text">Projet suivant</p>
+            </div>
+          </div>
+        </div>
       </div>
       <extends src="footer.html"></extends>
     </div>
+    <script src="js/main.js" type="module"></script>
   </body>
 </html>

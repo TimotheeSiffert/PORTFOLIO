@@ -13,22 +13,22 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <a href="projet.html">projet</a>
-    <a href="about.html">about</a>
+    <a class="link-about" href="about.html">about</a>
+    <div class="l-menu">
+      <extends src="menu.html"></extends>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="header">
             <div class="header-button">Logo</div>
-            <a href="menu.html" class="header-button">Menu</a>
+            <div class="header-button" id="openMenu">Menu</div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-7">
+        <div class="title">
           <h1 class="title-name">Timothée</h1>
-        </div>
-        <div class="col-5">
           <h1 class="title-lastname">Siffert</h1>
         </div>
       </div>
@@ -111,7 +111,9 @@
       <div class="row">
         <div class="col-5 offset-7">
           <div class="card">
-            <img src="img/poster.png" alt="" class="card-image" />
+            <a href="projet.html"
+              ><img src="img/poster.png" alt="" class="card-image"
+            /></a>
             <div class="card-top">
               <h2 class="card-title">Matte Painting</h2>
               <p class="card-date">2025</p>
