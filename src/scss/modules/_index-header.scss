@@ -14,4 +14,11 @@
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.header-button:hover {
+  background-color: #f3e7d5;
+  color: #0f1907;
+  transform: rotateZ(6deg);
 }

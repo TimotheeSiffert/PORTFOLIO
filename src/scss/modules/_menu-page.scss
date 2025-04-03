@@ -1,10 +1,21 @@
 .menu-page-number {
-  text-align: center;
   font-family: the-seasons, sans-serif;
   font-size: 32px;
   font-style: italic;
   font-weight: 100;
   padding-top: 38px;
+  position: absolute;
+}
+
+.menu-page-number.one {
+  margin-right: 430px;
+}
+
+.menu-page-number.two {
+  margin-left: 475px;
+}
+.menu-page-number.three {
+  margin-right: 555px;
 }
 
 .menu-page-title {
@@ -12,6 +23,11 @@
   font-family: the-seasons, sans-serif;
   font-size: 128px;
   font-weight: 400;
+  transition: 0.25s ease-in-out;
+}
+
+.menu-page-title:hover {
+  transform: scale(1.03) rotateZ(3deg);
 }
 
 .menu-page {
