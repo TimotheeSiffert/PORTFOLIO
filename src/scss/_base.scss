@@ -23,6 +23,10 @@ video {
   --White: #ffffff;
 }
 
+html {
+  cursor: none;
+}
+
 body {
   background-color: var(--Dark-green);
   color: var(--Light-light-brown);

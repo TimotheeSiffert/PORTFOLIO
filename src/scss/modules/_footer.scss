@@ -16,6 +16,11 @@
 
 .footer-socials {
   font-size: 16px;
+  transition: 0.3s;
+}
+
+.footer-socials:hover {
+  color: #9d958a;
 }
 
 .footer-group-socials {
@@ -42,6 +47,13 @@
   gap: 10px;
   border-radius: 38px;
   border: 0.4px solid var(--Light-Light-Brown, #f3e7d5);
+  transition: 0.5s ease-in-out;
+}
+
+.footer-button:hover {
+  background-color: #f3e7d5;
+  color: #0f1907;
+  transform: rotateZ(6deg);
 }
 
 .footer-button-text {

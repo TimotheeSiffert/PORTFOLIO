@@ -9,3 +9,11 @@ function toggleMenu() {
 
 openMenu.addEventListener("click", toggleMenu);
 closeMenu.addEventListener("click", toggleMenu);
+
+var onMouseMove = function () {
+  cursor.style.top = event.y + "px";
+  cursor.style.left = event.x + "px";
+};
+document.addEventListener("mousemove", onMouseMove);
+
+var cursor = document.querySelector(".cursor");
