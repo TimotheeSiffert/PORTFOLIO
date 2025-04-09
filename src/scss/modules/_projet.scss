@@ -6,7 +6,14 @@
 }
 
 .projet-arrow {
-  width: 100%;
+  width: 120%;
+  padding: 13px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.projet-arrow:hover {
+  background-color: #021103;
 }
 
 .projet-image {
