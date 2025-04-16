@@ -108,4 +108,22 @@
   display: flex;
   flex-direction: column;
   align-items: end;
+  transition: 0.6s;
+  padding: 20px;
+}
+
+.projet-previous:hover {
+  transform: rotate(-9deg);
+  margin-top: 40px;
+}
+
+.projet-next:hover {
+  transform: rotate(9deg);
+  margin-top: 40px;
+}
+
+.projet-next {
+  padding: 20px;
+  transition: 0.6s;
+  width: 285px;
 }
